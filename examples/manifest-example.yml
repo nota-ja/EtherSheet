@@ -1,0 +1,9 @@
+---
+applications:
+  - path: .
+    name: es
+    random-route: true
+    memory: 256M
+    instances: 1
+    services:
+      - my4es
